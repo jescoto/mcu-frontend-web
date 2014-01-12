@@ -63,7 +63,7 @@
                     <div class="user-info-3">
                        <a href="#">Connect</a>
                     </div>
-                    <div class="user-connection"><a href="#" id="my-connections"><i class="fa fa-user"></i> 38 Connections</a></div>
+                    <div class="user-connection"><a href="#" id="connections" data-toggle="modal"><i class="fa fa-user"></i> 38 Connections</a></div>
                     <div class="user-logos">
                         
                         <a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -120,6 +120,7 @@
                                     <div class="user-content">
                                         <!-- User Content Here -->
                                         <iframe width="475" height="267" src="//www.youtube.com/embed/wriUZQw5zwc" frameborder="0" allowfullscreen></iframe>
+                                        <img src="img/tupacquote.jpg" class="hidden " alt="user content">
                                         <div class="user-content-social">
                                             <a href="#" class="btn btn-primary btn-sm"> <span>11</span> Inspired </a>
                                             <a href="#" id="comment">Comment</a>
@@ -146,14 +147,18 @@
                                         <!-- End Comment Section -->
                                     </div>
                                             
-                                        </div>
-                                    </div>
-                                </div><!-- My feed end -->
+                                </div>
+                            </div>
+                            
+                            <div class="content-divder"></div>
                                     <!-- Ad Banner -->
                                     <div class="banner-ad">
                                         <img src="img/nike-ad.png" width="100%">
                                         <span class="pull-left"> Sponsored by Nike </span>
                                     </div>
+
+                            </div><!-- My feed end -->
+                                    
 
                             
                             <!-- Content Box -->
@@ -201,8 +206,8 @@
               </div><!-- /.modal-dialog -->
             </div><!-- /.modal -->
 
-        <!-- Connections Modal -->
-            <div class="modal fade" id="connections-modal" role="dialog" aria-labelledby="connections-modal" aria-hidden="true">
+        <!-- Connect Modal -->
+            <div class="modal fade" id="connect-modal" role="dialog" aria-labelledby="connect-modal" aria-hidden="true">
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
@@ -238,6 +243,61 @@
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
             </div><!-- /.modal -->
+
+            <!-- Connection Modal -->
+            <div class="modal fade" id="connection-modal" role="dialog" aria-labelledby="connection-modal" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"> Connections </h4> <span>38 total connections</span>
+                  </div>
+                  <div class="modal-body user-connect-body">
+                    <div class="user-profile-connect">
+                        <img src="img/user-sm.png" alt="user profile picture">
+                                        
+                        <div class="user-post-info">
+                            <div class="user-post-title">
+                                <span>John Smith</span>
+                            </div>
+                            <span>New York, Ny </span>
+                        </div>   
+                    </div>
+                    <div class="user-profile-connect">
+                        <img src="img/user-sm.png" alt="user profile picture">
+                                        
+                        <div class="user-post-info">
+                            <div class="user-post-title">
+                                <span>John Smith</span>
+                            </div>
+                            <span>New York, Ny </span>
+                        </div>   
+                    </div>
+                    <div class="user-profile-connect">
+                        <img src="img/user-sm.png" alt="user profile picture">
+                                        
+                        <div class="user-post-info">
+                            <div class="user-post-title">
+                                <span>John Smith</span>
+                            </div>
+                            <span>New York, Ny </span>
+                        </div>   
+                    </div>
+                    <div class="user-profile-connect">
+                        <img src="img/user-sm.png" alt="user profile picture">
+                                        
+                        <div class="user-post-info">
+                            <div class="user-post-title">
+                                <span>John Smith</span>
+                            </div>
+                            <span>New York, Ny </span>
+                        </div>   
+                    </div> 
+                    <span><a href="#"> View all connections</a></span>               
+                </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+
 
 
 

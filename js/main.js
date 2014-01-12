@@ -25,3 +25,7 @@ $("#mystory-show").click(function() {
 $("#mystory-hide").click(function() {
 	$("#mystory").toggle();
 });
+
+$("#connections").click(function() {
+	$("#connection-modal").modal();
+});
