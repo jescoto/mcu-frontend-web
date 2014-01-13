@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!-- Content Start -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse white" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">News Feed</a></li>
+                    <li><a href="#">Favorites</a></li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Inbox</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </nav>
+            <!-- End Nav -->
+            <div class="row main">
+            <div class="user-profile-left col-md-3 pull-left">
+                <img src="img/user-profile.png" width="auto" height="100%">
+                <div class="user-profile-img-top">
+                    <div class="username">John Smith</div>
+                    <div class="user-location"><i class="fa fa-map-marker"> </i> New York, NY</div>
+                    <div class="user-job"><i class="fa fa-music"> </i> Musical Artist</div>
+                </div>
+                <div class="user-profile-img-btm">
+                    <div class="user-info-1">
+                        <a href="#" id="mystory-show">My Story</a>
+                    </div>
+                    <div class="user-info-2">
+                        <a href="#" id="contact" data-toggle="modal">Contact Me</a>
+                    </div>
+                    <div class="user-info-3">
+                       <a href="#">Connect</a>
+                    </div>
+                    <div class="user-connection"><a href="#" id="my-connections"><i class="fa fa-user"></i> 38 Connections</a></div>
+                    <div class="user-logos">
+                        
+                        <a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                        <a href="#"><i class="fa fa-globe"></i></a></li>
+                        
+                    </div>
+                </div>
+
+            </div>
+            <div class="user-profile-right col-md-6 col-md-offset-1">
+                <div class="user-top">
+                    <span><i class="fa fa-file-text-o"></i> John's Recent Posts </span>
+                </div>
+                <div class="user-content-body">
+                    <div id="mystory"> <!-- hidden -->
+                        <p>I am a young African-American entrepreneur from South Carolina. 
+                        Because of trouble in the streets during my late teens, I missed out 
+                        on both my highschool graduation and a guaranteed college 
+                        scholarship. The last few years have been the toughest but I've found 
+                        a way thru when others told me there was none. At present, I am 
+                        working to glue all of the broken pieces back together in the face of 
+                        seemingly insurmountable odds. And Im ok with that. Nothing worth 
+                        having is ever suppose to come easy. I have no regrets. Only passion 
+                        to take the lessons from my past and use them (pain & all) to take my 
+                        share of success moving forward. I trade the forex and futures market 
+                        for both income & investment. Im just open to learning as I go and 
+                        networking with people who have been kicked down before but found 
+                        themselves too darn stubborn to stay down when others thought they 
+                        should. Cheers<br /><br />
+
+                        <span>John Smith</span>
+                        <div class="tooltip">
+                          <div class="tooltip-inner">
+                            Tooltip!
+                           </div>
+                          <div class="tooltip-arrow"></div>
+                         </div>
+                        <button type="button" id="mystory-hide" class="close pull-right" aria-hidden="true">&times;</button>
+                        </p>
+                    </div>
+                        <div id="my-feed">
+                            <div class="my-feed-box">
+                                    <div class="user-profile-sm">
+                                        <img src="img/user-sm.png" alt="user profile picture">
+                                        
+                                            <div class="user-post-info">
+                                                <div class="user-post-title">
+                                                    <span>Paste Title</span>
+                                                </div>
+                                                By &nbsp;<span>John Smith </span>
+                                            </div>   
+                                    </div>
+                                    <div class="user-content">
+                                        <!-- User Content Here -->
+                                        <iframe width="475" height="267" src="//www.youtube.com/embed/wriUZQw5zwc" frameborder="0" allowfullscreen></iframe>
+                                        <div class="user-content-social">
+                                            <a href="#" class="btn btn-primary btn-sm"> <span>11</span> Inspired </a>
+                                            <a href="#" id="comment">Comment</a>
+                                            <a href="#"><i class="fa fa-star"></i> Favorite</a>
+                                        
+                                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                            
+                                            <a href="#" class="btn btn-default btn-xs pull-right send-mcu"> Send to MCU </a>
+                                        </div>
+                                        <form role="form">
+                                            <input type="text" class="form-control input-sm user-comment" placeholder="add a comment...">
+                                        </form>
+                                        <!-- Comment Section -->
+                                            <div class="user-comment-list">
+                                                <p> <a href="#" id="hide-comment"> Hide Comments </a></p>
+                                                 <div class="user-profile-sm">
+                                                    <img src="img/user-sm.png" alt="user profile picture">
+                                                </div>
+                                                <div class="user-post-name"><a href="#">John Smith</a> </div>
+                                                <div class="user-post-comment"><p>hi sdfdsf gsf sdgsdfgdfs hi sdfdsf gsf sdgsdfgdfs hi sdfdsf gsf sdgsdfgdfs hi sdfdsf gsf sdgsdfgdfshi sdfdsf gsf sdgsdfgdfshi sdfdsf gsf sdgsdfgdfshi sdfdsf gsf sdgsdfgdfshi sdfdsf gsf sdgsdfgdfshi sdfdsf gsf sdgsdfgdfshi sdfdsf gsf sdgsdfgdfs </p> </div>
+                                            </div>
+                                        <!-- End Comment Section -->
+                                    </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div><!-- My feed end -->
+                                    <!-- Ad Banner -->
+                                    <div class="banner-ad">
+                                        <img src="img/nike-ad.png" width="100%">
+                                        <span class="pull-left"> Sponsored by Nike </span>
+                                    </div>
+
+                            
+                            <!-- Content Box -->
+                                
+                </div><!-- End myFeed -->
+            </div><!-- End user-content-body -->
+        </div>
+
+        <!-- Modals -->
+            <!-- Meesage modal -->
+            <div class="modal fade" id="contact-modal" role="dialog" aria-labelledby="contact-modal" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"><i class="fa fa-envelope-o"></i> New Message </h4>
+                  </div>
+                  <div class="modal-body">
+                    <form class="form-horizontal" role="form">
+                          <div class="form-group">
+                            <label for="message-to" class="col-sm-2 control-label">To</label>
+                            <div class="col-sm-10">
+                              <input type="text" class="form-control" id="message-to" placeholder="John Smith">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="message-from" class="col-sm-2 control-label">From</label>
+                            <div class="col-sm-10">
+                              <input type="text" class="form-control" id="message-from" placeholder="Jane Doe">
+                            </div>
+                          </div>
+                            <div class="form-group">
+                                <label for="message-text" class="col-sm-2 control-label">Message</label>
+                                <div class="col-sm-10">
+                                    <textarea class="form-control" id="message-text" placeholder="message..." rows="3"></textarea>
+                                </div>
+                            </div>
+                        </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Send</button>
+                  </div>
+                </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+
+        <!-- Connections Modal -->
+            <div class="modal fade" id="connections-modal" role="dialog" aria-labelledby="connections-modal" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"><i class="fa fa-envelope-o"></i> New Message </h4>
+                  </div>
+                  <div class="modal-body">
+                    <form class="form-horizontal" role="form">
+                          <div class="form-group">
+                            <label for="message-to" class="col-sm-2 control-label">To</label>
+                            <div class="col-sm-10">
+                              <input type="text" class="form-control" id="message-to" placeholder="John Smith">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="message-from" class="col-sm-2 control-label">From</label>
+                            <div class="col-sm-10">
+                              <input type="text" class="form-control" id="message-from" placeholder="Jane Doe">
+                            </div>
+                          </div>
+                            <div class="form-group">
+                                <label for="message-text" class="col-sm-2 control-label">Message</label>
+                                <div class="col-sm-10">
+                                    <textarea class="form-control" id="message-text" placeholder="message..." rows="3"></textarea>
+                                </div>
+                            </div>
+                        </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Send</button>
+                  </div>
+                </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+
+
+
+        <!-- Scripts -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>        
+        <script src="js/bootstrap.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
