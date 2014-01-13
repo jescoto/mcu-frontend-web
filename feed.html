@@ -36,7 +36,7 @@
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse white" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">News Feed</a></li>
+                    <li><a href="feed.html">News Feed</a></li>
                     <li><a href="#">Favorites</a></li>
                     <li><a href="#">My Account</a></li>
                     <li><a href="#">Inbox</a></li>
@@ -46,35 +46,145 @@
             </nav>
             <!-- End Nav -->
             <div class="row main">
-            <div class="user-profile-left col-md-3 pull-left">
-                <img src="img/user-profile.png" width="auto" height="100%">
-                <div class="user-profile-img-top">
-                    <div class="username">John Smith</div>
-                    <div class="user-location"><i class="fa fa-map-marker"> </i> New York, NY</div>
-                    <div class="user-job"><i class="fa fa-music"> </i> Musical Artist</div>
+            <div class="feed-left col-xs-2 col-xs-offset-2">
+                <div class="user-profile-sm">
+                    <img src="img/user-sm.png" alt="user profile picture">
+                                        
+                        <div class="user-info">
+                            <div class="user-name">
+                                <span>John Smith</span>
+                            </div>
+                                <a href="#">Edit Profile</a>
+                        </div>   
+                </div>   
+                <div class="content-sections">
+                    <i class="fa fa-folder-open"></i> <span class="label label-warning"> Browse Categories</span> 
+                </div> 
+                <div class="input-group">
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="">Latest News
+                      </label>
+                    </div>   
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="">Self-help
+                      </label>
+                    </div>      
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="">Business
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="">Technology
+                      </label>
+                    </div>         
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="">Creative
+                      </label>
+                    </div>  
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="">Lifestyle
+                      </label>
+                    </div>      
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="">Fashion
+                      </label>
+                    </div>         
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox" value="">Sports & Fitness
+                      </label>
+                    </div> 
                 </div>
-                <div class="user-profile-img-btm">
-                    <div class="user-info-1">
-                        <a href="#" id="mystory-show">My Story</a>
+                <div class="content-sections">
+                    <i class="fa fa-bookmark"></i> <span class="label label-warning"> Content Type</span> 
+                </div> 
+                    <div class="input-group">
+                        <div class="checkbox">
+                          <label>
+                            <input type="checkbox" value="">Advice
+                          </label>
+                        </div> 
+                        <div class="checkbox">
+                          <label>
+                            <input type="checkbox" value="">Quotes
+                          </label>
+                        </div> 
+                        <div class="checkbox">
+                          <label>
+                            <input type="checkbox" value="">Documentaries
+                          </label>
+                        </div> 
+                        <div class="checkbox">
+                          <label>
+                            <input type="checkbox" value="">Reviews
+                          </label>
+                        </div> 
+                        <div class="checkbox">
+                          <label>
+                            <input type="checkbox" value="">Opportunities
+                          </label>
+                        </div> 
                     </div>
-                    <div class="user-info-2">
-                        <a href="#" id="contact" data-toggle="modal">Contact Me</a>
-                    </div>
-                    <div class="user-info-3">
-                       <a href="#">Connect</a>
-                    </div>
-                    <div class="user-connection"><a href="#" id="my-connections"><i class="fa fa-user"></i> 38 Connections</a></div>
-                    <div class="user-logos">
-                        
-                        <a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-                        <a href="#"><i class="fa fa-globe"></i></a></li>
-                        
-                    </div>
+                <div class="content-sections">
+                    <i class="fa fa-bullhorn"></i> <span class="label label-warning"> Sponsors</span> 
+                </div> 
+                <div class="sponsor">
+                    <img src="img/user-sm.png" alt="user profile picture">            
+                        <div class="user-info">
+                            <div class="user-name">
+                                <span>Title Sponsor</span>
+                            </div>
+                        </div>   
                 </div>
-
+                <div class="sponsor">
+                    <img src="img/user-sm.png" alt="user profile picture">            
+                        <div class="user-info">
+                            <div class="user-name">
+                                <span>Major Sponsor</span>
+                            </div>
+                        </div>   
+                </div>
+                <div class="sponsor">
+                    <img src="img/user-sm.png" alt="user profile picture">            
+                        <div class="user-info">
+                            <div class="user-name">
+                                <span>Key Sponsor</span>
+                            </div>
+                        </div>   
+                </div>
+                <div class="sponsor">
+                    <img src="img/user-sm.png" alt="user profile picture">            
+                        <div class="user-info">
+                            <div class="user-name">
+                                <span>Key Sponsor</span>
+                            </div>
+                        </div>   
+                </div>
+                <div class="sponsor">
+                    <img src="img/user-sm.png" alt="user profile picture">            
+                        <div class="user-info">
+                            <div class="user-name">
+                                <span>Key Sponsor</span>
+                            </div>
+                        </div>   
+                </div>
             </div>
-            <div class="user-profile-right col-md-6 col-md-offset-1">
+            <div class="feed-middle col-xs-6">
+                <div class="user-upload">
+                    <textarea class="form-control" rows="3" placeholder="Add post..."></textarea>
+                    <button type="button" class="btn btn-success pull-right btn-sm btn-block" id="user-post">Post</button>
+                    <div class="upload-icon">
+                        <a href="#"><i class="fa fa-video-camera"></i></a>
+                        <a href="#"><i class="fa fa-picture-o"></i></a>
+                    </div> 
+                </div>
                 <div class="user-top">
                     <span><i class="fa fa-file-text-o"></i> John's Recent Posts </span>
                 </div>
@@ -96,12 +206,7 @@
                         should. Cheers<br /><br />
 
                         <span>John Smith</span>
-                        <div class="tooltip">
-                          <div class="tooltip-inner">
-                            Tooltip!
-                           </div>
-                          <div class="tooltip-arrow"></div>
-                         </div>
+                        
                         <button type="button" id="mystory-hide" class="close pull-right" aria-hidden="true">&times;</button>
                         </p>
                     </div>
@@ -159,6 +264,9 @@
                             <!-- Content Box -->
                                 
                 </div><!-- End myFeed -->
+                <div class="feed-right col-xs-2">
+                    a
+                </div>
             </div><!-- End user-content-body -->
         </div>
 
