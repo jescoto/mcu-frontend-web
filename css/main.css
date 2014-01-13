@@ -155,6 +155,14 @@ body {
   border-bottom: 1px solid #d1d2d4;
   padding-bottom: 3px;
 }
+.feed-top {
+  margin: 0px;
+  margin-top: 30px;
+  padding: 10px;
+  padding-left: 20px;
+  border-top: 1px solid #d1d2d4;
+  border-bottom: 1px solid #d1d2d4;
+}
 .user-content-body {
   padding: 20px;
   line-height: 1.75;
@@ -165,6 +173,28 @@ body {
 }
 .my-feed-box:nth-child(1) {
   margin-top: 0px;
+}
+.trending-content {
+  margin-top: 10px;
+  font-size: 1em;
+  margin-bottom: 40px;
+}
+.user-profile-sm-active {
+  margin-top: 10px;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+.user-profile-sm-active img,
+.trending-content img {
+  border-radius: 3px;
+  margin-right: 10px;
+  position: absolute;
+}
+.user-active {
+  font-size: 0.75em;
+  line-height: 1;
+  vertical-align: top;
+  margin-left: 50px;
 }
 .user-profile-sm img {
   border-radius: 3px;
@@ -280,9 +310,9 @@ body {
 }
 .feed-right {
   width: 200px;
-  height: 400px;
+  height: 100%;
   background-color: #f1f1f2;
-  padding: 0px;
+  padding: 20px;
   -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
   position: relative;
@@ -313,4 +343,7 @@ body {
   margin-top: 30px;
   padding-bottom: 5px;
   border-bottom: 1px solid #d1d2d4;
+}
+#members {
+  margin-top: 0px;
 }
