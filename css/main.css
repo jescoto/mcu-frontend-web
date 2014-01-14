@@ -7,8 +7,16 @@ body {
   color: #58595b;
   min-width: 1150px;
 }
+.nav-pad {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
 .main {
   margin-right: 0px;
+}
+.main-feed {
+  margin-left: auto;
+  margin-right: auto;
 }
 .user-profile-left {
   background-color: #a7a9ac;
