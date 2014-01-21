@@ -1,5 +1,6 @@
-$("#mystory").hide();
 
+
+$("#mystory").hide();
 
 $("#comment").click(function() {
 	$(".user-comment-list").toggle();
@@ -29,3 +30,11 @@ $("#mystory-hide").click(function() {
 $("#connections").click(function() {
 	$("#connection-modal").modal();
 });
+
+
+
+
+
+
+
+
