@@ -355,3 +355,75 @@ body {
 #members {
   margin-top: 0px;
 }
+.top-yellow {
+  height: 200px;
+  width: 100%;
+  background-color: #ffc737;
+  margin-top: 62px;
+  border-bottom: 1px solid #d1d2d4;
+}
+.headline {
+  margin-top: 200px;
+  z-index: 10;
+}
+.sign-up-box {
+  width: 305px;
+  min-height: 275px;
+  background-color: #f1f1f2;
+  border-radius: 5px;
+  border: 1px solid #d1d2d4;
+  margin-top: -160px;
+  z-index: 99;
+  padding: 15px;
+}
+.sign-up-box-headline {
+  font-size: 1.75em;
+}
+.sign-up-box-info {
+  font-size: 14px;
+  color: #a7a9ac;
+}
+.sign-up-box-form {
+  margin-top: 20px;
+  font-size: 14px;
+}
+.sign-up-half {
+  width: 49%;
+  display: inline;
+}
+.sign-up-half input {
+  margin-left: 2.5%;
+}
+.headline-img {
+  margin-top: -160px;
+}
+.features {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.feat-1 {
+  margin-top: -130px;
+}
+.feat-1 button,
+.feat-2 button,
+.feat-3 button {
+  margin-top: 5px;
+}
+.headline-feat {
+  font-size: 1.25em;
+}
+.headline-img img {
+  margin-left: 70px;
+}
+.feat-2,
+.feat-3 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.feat-2 img {
+  padding-left: -15px;
+}
+.bottom {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
