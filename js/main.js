@@ -1,3 +1,8 @@
+$(document).ready(function() {
+	$( '.headline-img' ).cycle();
+});
+
+
 $("#mystory").hide();
 
 
@@ -29,3 +34,4 @@ $("#mystory-hide").click(function() {
 $("#connections").click(function() {
 	$("#connection-modal").modal();
 });
+

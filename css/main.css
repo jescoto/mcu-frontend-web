@@ -404,6 +404,9 @@ body {
 .feat-1 {
   margin-top: -130px;
 }
+.feat-2 {
+  padding: 0px;
+}
 .feat-1 button,
 .feat-2 button,
 .feat-3 button {
