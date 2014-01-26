@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>My Come Up</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/datepicker3.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-formhelpers.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+    </head>
+    <body>
+        <!-- Content Start -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse white" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="feed.html">News Feed</a></li>
+                    <li><a href="#">Favorites</a></li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Inbox</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </nav>
+            <!-- End Nav -->
+            <div class="row main">
+            <div class="col-xs-4 col-xs-offset-4 join-box">
+                <ul class="nav nav-tabs nav-justified">
+                  <li class="active"><a href="#join" data-toggle="tab" id="join-click">Sign up</a></li>
+                  <li><a href="#login" data-toggle="tab" id="login-click">Log in</a></li>
+                </ul>
+            </div>
+
+            <div class="tab-content">
+              <div class="col-xs-4 col-xs-offset-4 join-box-signin tab-pane fade in active" id="join">
+                <span>Hi John, let's fill out some basic info for your profile!</span><br>
+                <form role="form">
+                  <div class="form-group">
+                    <label for="username">User Name</label>
+                    <input type="text" class="form-control" id="username" placeholder="ex. Supeman">
+                  </div>
+                  <div class="form-group">
+                    <label for="password1">Password</label>
+                    <input type="password" class="form-control" id="password1" placeholder="Password">
+                  </div>
+                  <div class="form-group">
+                    <label for="password2">Confirm Password</label>
+                    <input type="password" class="form-control" id="password2" placeholder="Password">
+                  </div>
+                    <div class="form-group">
+                        <label for="birthday">Birthday</label>
+                            <input type="text" class="form-control" data-provide="datepicker" placeholder="01/01/2000">
+                    </div>
+                  <a class="btn btn-default">Previous</a>
+                  <a href="#step3" class="btn btn-primary pull-right" id="step2-next" data-toggle="tab">Next</a>
+                </form>
+              </div>
+              <div class="col-xs-4 col-xs-offset-4 join-box-signin tab-pane fade" id="login">
+                <span>Log in </span><br>
+                <form role="form">
+                  <div class="form-group">
+                    <label for="emailAddress">Email</label>
+                    <input type="email" class="form-control" id="emailAddress" placeholder="john@mail.com">
+                  </div>
+                  <div class="form-group">
+                    <label for="password1">Password</label>
+                    <input type="password" class="form-control" id="password1" placeholder="Password">
+                  </div>
+                
+                <button type="submit" class="btn btn-success">Submit</button>
+              </div>
+              <div class="col-xs-4 col-xs-offset-4 join-box-signin tab-pane fade" id="step3">
+                Step 3 - Additional Details<br>
+                    <div class="form-group">
+                        <label for="countries_states1">Country</label>
+                        <select id="countries_states1" class="form-control bfh-countries bfh-select-fix bfh-select-us" data-country="US"></select>
+                    </div>
+                    <div class="form-group">
+                        <label for="user-city">Current city</label>
+                        <input type="text" class="form-control" id="user-city" placeholder="New York, NY">
+                    </div>
+                    <div class="form-group">
+                        <label for="user-occupation">Occupation</label>
+                        <select class="form-control">
+                            <option>Accountant</option>
+                            <option>Actor</option>
+                            <option>Actress</option>
+                            <option>Advertising</option>
+                            <option>Artist</option>
+                            <option>Athlete</option>
+                            <option>Author</option>
+                            <option>Auto Racer</option>
+                            <option>Aviation & Aerospace</option>
+                            <option>Blogger</option>
+                            <option>Boxer</option>
+                            <option>Business Management</option>
+                            <option>Basketball Player</option>
+                            <option>Business Investor</option>
+                            <option>Charity Occupation</option>
+                            <option>Chief</option>
+                            <option>Child Care</option>
+                            <option>Choreographer</option>
+                            <option>Comedian</option>
+                            <option>Computer Games</option>
+                            <option>Computer Software</option>
+                            <option>Computer/I.T</option>
+                            <option>Dancer</option>
+                            <option>Doctor</option>
+                            <option>Engineer</option>
+                            <option>Entrepreneur</option>
+                            <option>Event Planner</option>
+                            <option>Extreme Sports</option>
+                            <option>Fashion and Apparel</option>
+                            <option>Film Director</option>
+                            <option>Film Producer</option>
+                            <option>Finance</option>
+                            <option>Fitness Instructor</option>
+                            <option>Football Player</option>
+                            <option>Fund-Raiser</option>
+                            <option>Government Services</option>
+                            <option>Graphic Designer</option>
+                            <option>Health and Fitness</option>
+                            <option>Internal Design</option>
+                            <option>Internet Marketer</option>
+                            <option>Investment Banker</option>
+                            <option>Journalist</option>
+                            <option>Law Occupation</option>
+                            <option>Life Couch</option>
+                            <option>Media</option>
+                            <option>Model</option>
+                            <option>Motivational Speaker</option>
+                            <option>Musician</option>
+                            <option>Nutritionist</option>
+                            <option>Personal Assistant</option>
+                            <option>Photographer</option>
+                            <option>Poet/Spoke Word</option>
+                            <option>Politician</option>
+                            <option>Presenter</option>
+                            <option>Pharmacist</option>
+                            <option>Public Relations</option>
+                            <option>Radio Personality</option>
+                            <option>Real Estate</option>
+                            <option>Recording Artist</option>
+                            <option>Restaurateur</option>
+                            <option>Retail</option>
+                            <option>Script Writer</option>
+                            <option>Stylist</option>
+                            <option>Tattoo Artist</option>
+                            <option>Teacher</option>
+                            <option>Web Developer</option>
+                            <option>Web Programmer</option>
+                            <option>Wedding planner</option>
+                            <option>Writer</option>
+                        </select>
+                    </div>
+                    <a href="#" class="btn btn-xl btn-success" id="image-upload" data-toggle="modal" data-target="#image-modal">Finished</a>
+                </div>
+
+            </div>
+            </div><!-- End user-content-body -->
+        </div>
+
+        <!-- Image modal -->
+            <div class="modal fade" id="image-modal" role="dialog" aria-labelledby="image-modal" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+
+                  <div class="modal-body upload-box">
+                    <button type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h1>Congratulations</h1>
+                    <span>Welecome to MyComeUp!</span><br>
+                    <span>Upload your photo and start representing</span>
+                    <div class="user-img">
+                        <img src="img/user_blank.png" class="img-rounded" alt="user profile" width="150px" height="150px">
+                    </div>
+                    <div class="user-upload-pic">
+                    <a href="#" class="btn btn-primary btn-block">Upload Photo</a>
+                    </div>
+                  </div>
+                </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+        
+
+
+
+
+        <!-- Scripts -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>        
+        <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap-datepicker.js"></script>
+        <script src="js/bootstrap-formhelpers.min.js"></script>
+        <script src="js/bootstrap-formhelpers-countries.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>
