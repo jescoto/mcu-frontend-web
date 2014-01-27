@@ -536,3 +536,13 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.bday {
+  padding: 15px;
+}
+.edit-box {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.edit-box-form {
+  width: 350px;
+}

@@ -46,6 +46,11 @@ $('#join-click').click(function (e) {
   $("#join").tab('show');
 });
 
+$('#step3-back').click(function (e) {
+  e.preventDefault();
+  $("#join").tab('show');
+});
+
 $('.bfh-select-us').bfhcountries({country:'US', flags:true});
 
 

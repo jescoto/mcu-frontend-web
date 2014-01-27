@@ -14,10 +14,8 @@
         <link rel="stylesheet" href="css/bootstrap.css" media="screen">
         <link rel="stylesheet" href="css/font-awesome.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/datepicker3.css">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap-formhelpers.min.css">
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-formhelpers.min.css">
     </head>
     <body>
         <!-- Content Start -->
@@ -46,31 +44,62 @@
             </nav>
             <!-- End Nav -->
             <div class="row main">
-            <div class="col-xs-4 col-xs-offset-4 join-box">
-                <ul class="nav nav-tabs nav-justified">
-                  <li class="active"><a href="#join" data-toggle="tab" id="join-click">Sign up</a></li>
-                  <li><a href="#login" data-toggle="tab" id="login-click">Log in</a></li>
-                </ul>
-            </div>
+            <div class="user-profile-left col-md-3 pull-left">
+                <img src="img/user-profile.png" width="auto" height="100%">
+                <div class="user-profile-img-top">
+                    <div class="username">John Smith</div>
+                    <div class="user-location"><i class="fa fa-map-marker"> </i> New York, NY</div>
+                    <div class="user-job"><i class="fa fa-music"> </i> Musical Artist</div>
+                </div>
+                <div class="user-profile-img-btm">
+                    <div class="user-info-1">
+                        <a href="#" id="mystory-show">My Story</a>
+                    </div>
+                    <div class="user-info-2">
+                        <a href="#" id="contact" data-toggle="modal">Contact Me</a>
+                    </div>
+                    <div class="user-info-3">
+                       <a href="#">Connect</a>
+                    </div>
+                    <div class="user-connection"><a href="#" id="connections" data-toggle="modal"><i class="fa fa-user"></i> 38 Connections</a></div>
+                    <div class="user-logos">
+                        
+                        <a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                        <a href="#"><i class="fa fa-globe"></i></a></li>
+                        
+                    </div>
+                </div>
 
-            <div class="tab-content">
-              <div class="col-xs-4 col-xs-offset-4 join-box-signin tab-pane fade in active" id="join">
-                <span>Hi John, let's fill out some basic info for your profile!</span><br>
-                <form role="form">
-                  <div class="form-group">
-                    <label for="password1">Password</label>
-                    <input type="password" class="form-control" id="password1" placeholder="Password">
-                  </div>
-                  <div class="form-group">
-                    <label for="password2">Confirm Password</label>
-                    <input type="password" class="form-control" id="password2" placeholder="Password">
-                  </div>
-                  <div class="row bday">
+            </div>
+            <div class="user-profile-right col-md-6 col-md-offset-1">
+                <div class="user-top">
+                    <span id="title"><i class="fa fa-home"></i> Edit my profile </span>
+                </div>
+                <div class="edit-box">
+                    <form role="form" class="edit-box-form">
+                          <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" class="form-control" id="first-name" placeholder="John">
+                          </div>
+                           <div class="form-group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" class="form-control" id="last-name" placeholder="Smith">
+                            </div>
+                        <div class="form-group">
+                            <label for="emailAddress">Email</label>
+                            <input type="email" class="form-control" id="emailAddress" placeholder="john@mail.com">
+                        </div>
+                        <div class="form-group">
+                        <label for="password1">Password</label>
+                        <input type="password" class="form-control" id="password1" placeholder="Password">
+                      </div>
+                      <div class="row bday">
                     <label>Birthday</label>
                     <div class="form-group">
                             <div class="col-xs-3">
                             <select name="DateOfBirth_Month">
-                                <option> - Month - </option>
+                                <option>Month</option>
                                 <option value="January">January</option>
                                 <option value="Febuary">Febuary</option>
                                 <option value="March">March</option>
@@ -87,7 +116,7 @@
                             </div>
                             <div class="col-xs-3">
                             <select name="DateOfBirth_Day">
-                                <option> - Day - </option>
+                                <option>Day</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
@@ -123,7 +152,7 @@
                             </div>
                             <div class="col-xs-3">
                                 <select name="DateOfBirth_Year">
-                                    <option> - Year - </option>
+                                    <option> Year </option>
                                     <option value="2004">2004</option>
                                     <option value="2003">2003</option>
                                     <option value="2002">2002</option>
@@ -233,27 +262,6 @@
                             </div><!-- year -->
                     </div><!-- row -->
                 </div>
-                  <a href="#step3" class="btn btn-primary pull-right" id="step2-next" data-toggle="tab">Next</a>
-                </form>
-
-                  
-              </div>
-              <div class="col-xs-4 col-xs-offset-4 join-box-signin tab-pane fade" id="login">
-                <span>Log in </span><br>
-                <form role="form">
-                  <div class="form-group">
-                    <label for="emailAddress">Email</label>
-                    <input type="email" class="form-control" id="emailAddress" placeholder="john@mail.com">
-                  </div>
-                  <div class="form-group">
-                    <label for="password1">Password</label>
-                    <input type="password" class="form-control" id="password1" placeholder="Password">
-                  </div>
-                
-                <button type="submit" class="btn btn-success">Submit</button>
-              </div>
-              <div class="col-xs-4 col-xs-offset-4 join-box-signin tab-pane fade" id="step3">
-                Step 3 - Additional Details<br>
                     <div class="form-group">
                         <label for="countries_states1">Country</label>
                         <select id="countries_states1" class="form-control bfh-countries bfh-select-fix bfh-select-us" data-country="US"></select>
@@ -336,36 +344,19 @@
                             <option>Writer</option>
                         </select>
                     </div>
-                    <a class="btn btn-default" id="step3-back" data-toggle="tab" data-target="#join">Back</a>
-                    <a href="#" class="btn btn-xl btn-success pull-right" id="image-upload" data-toggle="modal" data-target="#image-modal">Finished</a>
-                </div>
+                    
+                    <button class="btn btn-success">Save</button>  
+                    <button class="btn btn-default">Cancel</button>              
+                    </form>
 
-            </div>
+                </div>             
+
+                            
+                            <!-- Content Box -->
+                                
+                </div><!-- End myFeed -->
             </div><!-- End user-content-body -->
         </div>
-
-        <!-- Image modal -->
-            <div class="modal fade" id="image-modal" role="dialog" aria-labelledby="image-modal" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-
-                  <div class="modal-body upload-box">
-                    <button type="button" class="close pull-right" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h1>Congratulations</h1>
-                    <span>Welecome to MyComeUp!</span><br>
-                    <span>Upload your photo and start representing</span>
-                    <div class="user-img">
-                        <img src="../beta/img/user_blank.png" class="img-rounded" alt="user profile" width="150px" height="150px">
-                    </div>
-                    <div class="user-upload-pic">
-                    <a href="#" class="btn btn-primary btn-block">Upload Photo</a>
-                    </div>
-                  </div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-        
-
 
 
 
@@ -373,10 +364,8 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>        
         <script src="js/bootstrap.js"></script>
-        <script src="js/bootstrap-datepicker.js"></script>
         <script src="js/bootstrap-formhelpers.min.js"></script>
         <script src="js/bootstrap-formhelpers-countries.js"></script>
         <script src="js/main.js"></script>
-        
     </body>
 </html>
