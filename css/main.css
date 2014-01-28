@@ -546,3 +546,47 @@ body {
 .edit-box-form {
   width: 350px;
 }
+#full-bk {
+  margin-top: 63px;
+  background: url(../img/nike.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.spon-info {
+  margin-top: 50px;
+  margin-left: 5px;
+  margin-bottom: 70px;
+}
+.spon-info img {
+  margin-left: -5px;
+}
+.spon-name {
+  margin-top: 10px;
+  color: #f1f1f2;
+  font-size: 2em;
+}
+.spon-tagline {
+  color: #f1f1f2;
+  font-weight: 300;
+  margin-top: -10px;
+  font-size: 1em;
+}
+.spon-info a {
+  color: #a7a9ac;
+  text-decoration: none;
+}
+.spon-info a {
+  padding-top: 10px;
+}
+.spon-info-box {
+  margin-top: 50px;
+}
+.panel-default {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.panel-body img {
+  margin-right: 30px;
+  border: 1px solid #d1d2d4;
+}
