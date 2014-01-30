@@ -4,11 +4,20 @@
 .yellow {
   color: #ffc737;
 }
+.red {
+  color: #c0392b;
+}
 body {
   background-color: #e6e7e8;
   font-family: 'Lato', sans-serif;
   color: #58595b;
   min-width: 1150px;
+}
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand img {
+  margin-top: 5px;
 }
 .nav-pad {
   padding-left: 2.5%;
@@ -587,7 +596,17 @@ body {
   background-color: rgba(255, 255, 255, 0.9);
 }
 .panel-body img {
-  margin-right: 30px;
+  margin-right: 35px;
   border: 1px solid #d1d2d4;
   margin-bottom: 25px;
+}
+.white ul > li > i {
+  font-size: 0.75em;
+}
+.noti {
+  line-height: 1.25;
+}
+.dropdown-menu > li > a {
+  line-height: 1;
+  cursor: pointer;
 }
