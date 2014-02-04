@@ -444,7 +444,7 @@ body {
   height: 200px;
   width: 100%;
   background-color: #ffc737;
-  margin-top: 62px;
+  margin-top: 50px;
   border-bottom: 1px solid #d1d2d4;
 }
 .headline {
@@ -609,4 +609,22 @@ body {
 .dropdown-menu > li > a {
   line-height: 1;
   cursor: pointer;
+}
+#bk-comp {
+  margin-top: 50px;
+  background: url(../img/nike.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 700px;
+}
+#bk-car {
+  margin-top: 30px;
+  height: 700px;
+}
+#bk-legal {
+  margin-top: 30px;
+  height: 700px;
+  background-color: #1d75bb;
 }
