@@ -1,5 +1,8 @@
 $(document).ready(function() {
-	
+	$('body').scrollspy({ 
+		target: '.links',
+		offset: 55 
+	})
 });
 
 
@@ -62,4 +65,14 @@ $('#bday').datepicker({
 $("#image-upload").click(function() {
 	$("#image-modal").modal();
 });
+
+
+
+
+
+
+
+
+
+
 

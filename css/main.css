@@ -610,21 +610,40 @@ body {
   line-height: 1;
   cursor: pointer;
 }
-#bk-comp {
+.bk-comp {
   margin-top: 50px;
-  background: url(../img/nike.jpg) no-repeat center center fixed;
+  background: url(../img/city.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 700px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
-#bk-car {
-  margin-top: 30px;
-  height: 700px;
+.bk-car {
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-top: 40px;
 }
-#bk-legal {
-  margin-top: 30px;
-  height: 700px;
+.bk-contact {
+  background-color: #ffc737;
+  padding-top: 40px;
+}
+.bk-legal {
+  height: 100%;
   background-color: #1d75bb;
+  padding-top: 40px;
+}
+.comp-box {
+  padding: 20px;
+}
+.links {
+  color: white;
+  margin-top: 20px;
+  padding-right: 40px;
+}
+.links a:link,
+.links a:active {
+  color: #f1f1f2;
 }
